@@ -170,7 +170,7 @@ Open Windows Terminal / PowerShell
 Navigate to your bot folder
 
            <code>
-           cd C:\Users\<YourName>\Desktop\btc_tracker
+           cd \Users\<YourPCName>\Desktop\btc_tracker
            </code>
   
 Step 2: Install dependencies (Only needed once)
