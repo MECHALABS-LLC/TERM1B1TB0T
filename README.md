@@ -14,7 +14,7 @@ A basic tool that tracks Bitcoin transactions in real time above or below a part
 -Open Windows Terminal / PowerShell<br>
 
 -Navigate to your bot folder<br>
-``cd \Users\<YourPCName>\Desktop\TERM1B1TB0T``<br>
+``cd \Users\<YourPCName>\Desktop\btc_tracker``<br>
   
 -Step 2: Install dependencies (Only needed once)<br>
 ``pip install requests websocket-client``<br>
@@ -40,8 +40,8 @@ A basic tool that tracks Bitcoin transactions in real time above or below a part
 
 
 -Run:<br>
-`` mkdir -p ~/TERM1B1TB0T``<br>
-`` cd ~/TERM1B1TB0T``<br>
+`` mkdir -p ~/btc_tracker``<br>
+`` cd ~/btc_tracker``<br>
 
 
 ## Step 2: Create the Virtual Environment
@@ -56,7 +56,7 @@ A basic tool that tracks Bitcoin transactions in real time above or below a part
    ``source btc-env/bin/activate``
     
 -If successful, your terminal will now look something like:<br>
-   ``(btc-env) username@kali:~/TERM1B1TB0T$``<br>
+   ``(btc-env) username@kali:~/btc_tracker$``<br>
   
   -This means you’re inside the virtual environment.<br>
 
@@ -85,7 +85,7 @@ A basic tool that tracks Bitcoin transactions in real time above or below a part
 
 
 ## Re-activate it later
-   ``source ~/TERM1B1TB0T/btc-env/bin/activate``
+   ``source ~/btc_tracker/btc-env/bin/activate``
             
        
  ## List installed packages	
@@ -99,7 +99,7 @@ A basic tool that tracks Bitcoin transactions in real time above or below a part
 ## Run the Bot With a Custom Limit
 
 -Activate your virtual environment first:
-  ``source ~/TERM1B1TB0T/btc-env/bin/activate``
+  ``source ~/btc_tracker/btc-env/bin/activate``
 
 
 -Run the bot with a custom price limit (in USD):
